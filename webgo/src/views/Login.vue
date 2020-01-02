@@ -209,18 +209,22 @@
 </template>
 
 <script>
-    import Point from './js/timer.js'
+    import lottery from './js/lottery.js'
     export default {
         name: "login",
+        data(){
+            return {}
+        },
         mounted(){
-            let test = new Point(1, 2)
-            let str = test.toString()
-            test.doStuff() //stuff
-            console.log(test);// Point {x: 1, y: 2}
-            console.log(str); // 输入项:(1, 2)
+            // Timer.countdown('Thu Jan 03 2020 18:00:00')
+            // Interface.getOmit({}).then((res)=>{
+            //     const json = res.data;
+            //     if(json.code == 1) {
+            //     }else {
+            //     }
+            // })
         },
         methods: {
-
         }
     }
 </script>
